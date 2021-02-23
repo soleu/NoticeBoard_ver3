@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%session.setAttribute("pagecount", 10); %>
+	<%session.setAttribute("pagecount", 10);
+	session.setAttribute("pageNum",0);
+	%>
 	<script>
 	window.location.href="MainBoard.jsp";
 	</script>
